@@ -17,7 +17,7 @@ class FzfTab < Formula
   def caveats
     <<~EOS
       To activate fzf-tab, add the following to your ~/.zshrc:
-        source #{opt_pkgshare}/fzf-tab.plugin.zsh
+        source #{HOMEBREW_PREFIX}/share/fzf-tab/fzf-tab.plugin.zsh
     EOS
   end
 end

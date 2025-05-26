@@ -31,7 +31,7 @@ brew install kortin99/tap/fzf-tab
 After installation, add the following to your `~/.zshrc` to activate `fzf-tab`:
 
 ```zsh
-source $(brew --prefix)/opt/fzf-tab/share/fzf-tab.plugin.zsh
+source /opt/homebrew/share/fzf-tab/fzf-tab.plugin.zsh
 ```
 
 ## Adding more formulae
