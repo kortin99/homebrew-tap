@@ -9,7 +9,9 @@ class FzfTab < Formula
   depends_on "zsh"
 
   def install
-    pkgshare.install "fzf-tab.plugin.zsh", "README.md"
+    pkgshare.install "fzf-tab.plugin.zsh", "fzf-tab.zsh", "README.md"
+    pkgshare.install "modules"
+    pkgshare.install "lib"
   end
 
   def caveats
